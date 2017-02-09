@@ -19,24 +19,22 @@ You will learn how to load sample data from Parquet and ORC file formats.
 
 ---
 
-1. SAP HANA Vora support loading data not only from CSV format, but as well Hadoop-specific Parquet and ORC file formats.
-
-    For this tutorial SAP HANA Vora, developer edition, has already sample files preloaded into HDFS. You can see them by executing following statements in the host's operating system as user `vora`.
-
-    ```shell
-    hdfs dfs -ls *.orc
-    hdfs dfs -ls *.parquet
-    ```
-
-    ![Check HDFS for files](voraformats00.jpg)
-
-2. Similarly to loading sample CSV files you will use Zeppelin with predefined notebook here as well. To open Zeppelin web UI click on **Connect** in your SAP HANA Vora instance in CAL, and then pick **Open** a link for `Application: Zeppelin`.
+1. Similarly to loading sample CSV files you will use Zeppelin with predefined notebook here as well. Open Zeppelin from the url http://hostname:9099
 
     Once Zeppelin opens up in a new browser window, check it is **Connected** and if yes, then click on `2_DataTypes` notebook.
 
     ![Open Zeppelin](voraformats01.jpg)
+    
+2. For this tutorial, sample files are preloaded into HDFS. You can see them by executing following statements in the Zeppelin
+    ```shell
+    %sh
+    hdfs dfs -ls *.orc
+    hdfs dfs -ls *.parquet
+    ```
+    Your output will match the screenshot below.
+     ![Check HDFS for files](voraformats00.jpg)
 
-3. First you will create a table `SALES_P` using Apache Parquet file format.
+3. Now you will create a table `SALES_P` using Apache Parquet file format.
 
     Click on **Run this paragraph** play button first on `CREATE TABLE` statement and then on `SELECT` one. Please note `format "parquet"` option in the first statement.
 
