@@ -22,12 +22,7 @@ You will learn how to start SAP HANA Vora Tools and using two of them: SQL Edito
 
 1. The **SAP HANA Vora Tools** provide a web UI for viewing and exporting data in tables and views, an SQL editor for creating and running SQL scripts, and a modeler for creating data models.
 
-2. SAP HANA Vora, developer edition, on CAL comes with SAP HANA Vora Tools pre-installed. To open the Tools web UI click on **Connect** in your SAP HANA Vora instance in CAL, and then **Open** a link for `Application: Vora Web Tools`.
-
-    >The port of Vora Tools web UI has been preconfigured for you in the SAP HANA Vora, developer edition, in CAL. As well its port has been opened as one of the default **Access Points**. As you might remember it translates into the appropriate _inbound rule_ in the corresponding AWS's security group.
-
-    ![Opening SAP HANA Vora Tools from CAL cockpit](voratools01.jpg)
-
+2. Open Vora Tools from the url https://hostname:9225
 3. Once Vora Tools opens up in a new browser window, check its **Connection Status** is OK before working with any of its tools.
 
     Each tool can be opened from the Home screen, or - alternatively - from shortcut icons on the left.
