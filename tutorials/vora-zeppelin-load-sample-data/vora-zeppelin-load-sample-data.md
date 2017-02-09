@@ -25,9 +25,7 @@ You will learn how to open Apache Zeppelin and how to load sample data.
 
     SAP HANA Vora provides its own `%vora` interpreter, which allows Spark/Vora features to be used from Zeppelin. Zeppelin allows queries to be written directly in Spark SQL (that is, without the need for any Scala, Python, or R glue code).
 
-2. SAP HANA Vora, developer edition, on CAL comes with Apache Zeppelin pre-installed. Similar to opening Apache Ambari to open Zeppelin web UI click on **Connect** in your SAP HANA Vora instance in CAL, and then pick **Open** a link for `Application: Zeppelin`.
-
-    >The port of Zeppelin web UI has been preconfigured for you in the SAP HANA Vora, developer edition, in CAL. As well its port has been opened as one of the default **Access Points**. As you might remember it translates into the appropriate _inbound rule_ in the corresponding AWS's security group.
+2. Open Zeppelin from the url http://hostname:9099
 
     ![Opening Apache Zeppelin from CAL cockpit](vorazeppelin01.jpg)
 
