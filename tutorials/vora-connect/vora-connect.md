@@ -25,7 +25,7 @@ You will learn how to connect to your SAP HANA Vora instance to manage it. There
 
 
 
-1. To open Apache Ambari web UI, **Open** the url http://<worker00>:8080/#/login 
+1. To open Apache Ambari web UI, **Open** the url http://hostname:8080/#/login 
 
    
 2. Log into Ambari web UI using the user `admin` and password 'admin'.
