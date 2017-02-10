@@ -21,12 +21,13 @@ You will learn how to load tables with parent-child relationship between data it
 
 1. SAP HANA Vora introduces support for hierarchies by enhancing Spark SQL to provide missing functionality. Extensions to Spark SQL support hierarchical queries that make it possible to define a hierarchical DataFrame and perform custom hierarchical UDFs on it.
 
-    For this tutorial the SAP HANA Vora, developer edition, has already sample files preloaded into HDFS. You can see them by executing following statements in the host's operating system as user `vora`.
+   For this tutorial, sample files are preloaded into HDFS. You can see them by executing following statements in the Zeppelin
 
     ```shell
+    %sh
     hdfs dfs -ls officers.csv addresses.csv
     ```
-
+    Your output will match the screenshot below.
     ![Check HDFS for files](vorahier00.jpg)
 
 2. Similarly to loading sample CSV files you will use Zeppelin with predefined notebook here as well.
