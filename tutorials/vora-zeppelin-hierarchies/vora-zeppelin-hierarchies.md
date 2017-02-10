@@ -64,7 +64,7 @@ You will learn how to load tables with parent-child relationship between data it
 
 4. Create a hierarchy view using an SQL statement. To create a hierarchy `HV`, you use a table `OFFICERS` that specifies the relations between the predecessors and successors of the hierarchy.
 
-    ![Create HV hierarchy view](vorahier03.jpg)
+    ![Create HV hierarchy view](vorahier03.JPG)
 
     You can do it as well from SQL Editor.
 
