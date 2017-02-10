@@ -69,12 +69,12 @@ You will learn how to load tables with parent-child relationship between data it
     You can do it as well from SQL Editor.
 
     ```sql
-    CREATE VIEW HV AS SELECT * FROM HIERARCHY (
+    CREATE VIEW HV AS SELECT id, pred, ord, rank, node FROM HIERARCHY (
     USING OFFICERS AS child
-    JOIN PARENT par ON child.pred = par.id
-    SEARCH BY ord ASC
+    JOIN PRIOR par ON child.pred = par.id
+    ORDER SIBLINGS BY ord ASC
     START WHERE pred=0
-    SET node) AS H;
+    SET node) AS H
 
     SELECT * FROM HV
     ```
