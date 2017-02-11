@@ -35,13 +35,4 @@ You will learn how to open Apache Zeppelin and how to load sample data.
     ![All tables created](vorazeppelin05.jpg)
 
 ## Next Steps
- - [Getting started with SAP HANA Vora Tools](are the tables you will need as well later in exercises.
-    A dialog window will pop up asking you to confirm to **Run all paragraphs?** Click **OK**
-    ![Running all statements from 0_DemoData notebook](vorazeppelin03.jpg)
-5. After all statements are finished you should see the interpreter's comment as "Command processed successfully with no results" for all paragraphs.
-    ![All statements executed in 0_DemoData notebook](vorazeppelin04.jpg)    
-    The last statement should show you all tables created.
-    ![All tables created](vorazeppelin05.jpg)
-
-## Next Steps
  - [Getting started with SAP HANA Vora Tools](/tutorials/vora-tools-getting-started/vora-tools-getting-started.md)
