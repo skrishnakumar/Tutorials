@@ -1,23 +1,10 @@
----
-title: Loading sample data using Apache Zeppelin
-description: You will use Apache Zeppelin to create tables and load sample data from files already created in HDFS in SAP HANA Vora, developer edition, on CAL.
-tags: [  tutorial>beginner, topic>big-data, products>sap-hana-vora ]
----
-## Prerequisites  
- - **Proficiency:** Beginner
- - **Tutorials:** [Connect to SAP HANA Vora, developer edition](http://www.sap.com/developer/tutorials/vora-connect.html)
-
-## Next Steps
- - [Getting started with SAP HANA Vora Tools](http://www.sap.com/developer/tutorials/vora-tools-getting-started.html)
-
+## title: Loading sample data using Apache Zeppelin
 ## Details
 ### You will learn  
 You will learn how to open Apache Zeppelin and how to load sample data.
 
 ### Time to Complete
 **10 Min**.
-
----
 
 1. Apache Zeppelin is a web-based notebook that enables interactive data analytics. It is Apache Licensed open-source software.
 
@@ -26,8 +13,6 @@ You will learn how to open Apache Zeppelin and how to load sample data.
     SAP HANA Vora provides its own `%vora` interpreter, which allows Spark/Vora features to be used from Zeppelin. Zeppelin allows queries to be written directly in Spark SQL (that is, without the need for any Scala, Python, or R glue code).
 
 2. Open Zeppelin from the url http://hostname:9099
-
-    ![Opening Apache Zeppelin from CAL cockpit](vorazeppelin01.jpg)
 
 3. Once Zeppelin opens up in a new browser window, check it is **Connected** and if yes, then click on `0_DemoData` notebook.
 
@@ -50,4 +35,4 @@ You will learn how to open Apache Zeppelin and how to load sample data.
     ![All tables created](vorazeppelin05.jpg)
 
 ## Next Steps
- - [Getting started with SAP HANA Vora Tools](http://www.sap.com/developer/tutorials/vora-tools-getting-started.html)
+ - [Getting started with SAP HANA Vora Tools](/tutorials/vora-modeler-getting-started/vora-modeler-getting-started.md)
