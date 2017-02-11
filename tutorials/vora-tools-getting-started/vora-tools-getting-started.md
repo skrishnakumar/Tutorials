@@ -1,15 +1,4 @@
----
-title: Getting started with SAP HANA Vora Tools
-description: Getting started with SAP HANA Vora Tools using SQL Editor and Data Browser
-tags: [  tutorial>beginner, topic>big-data, products>sap-hana-vora ]
----
-## Prerequisites  
- - **Proficiency:** Beginner
- - **Tutorials:** [Loading sample data using Apache Zeppelin](http://www.sap.com/developer/tutorials/vora-zeppelin-load-sample-data.html)
- - Understanding basics of Apache Spark
-
-## Next Steps
- - [Getting started with SAP HANA Vora Modeler: Creating SQL views](http://www.sap.com/developer/tutorials/vora-modeler-getting-started.html)
+## Title: Getting started with SAP HANA Vora Tools
 
 ## Details
 ### You will learn  
@@ -22,7 +11,7 @@ You will learn how to start SAP HANA Vora Tools and using two of them: SQL Edito
 
 1. The **SAP HANA Vora Tools** provide a web UI for viewing and exporting data in tables and views, an SQL editor for creating and running SQL scripts, and a modeler for creating data models.
 
-2. Open Vora Tools from the url https://hostname:9225
+2. Open Vora Tools from the url http://hostname:9225
 3. Once Vora Tools opens up in a new browser window, check its **Connection Status** is OK before working with any of its tools.
 
     Each tool can be opened from the Home screen, or - alternatively - from shortcut icons on the left.
@@ -52,11 +41,9 @@ You will learn how to start SAP HANA Vora Tools and using two of them: SQL Edito
     SELECT * FROM CUSTOMER_TEXT;
     ```
 
-    ![Running statements in SQL Editor](voratools03.jpg)
-
 6. Now open **Data Browser** tool. You should see all available tables and clicking on `CUSTOMER` table will open its content. You can explore the data now.
 
     ![Browsing data](voratools04.jpg)
 
 ## Next Steps
- - [Getting started with SAP HANA Vora Modeler: Creating SQL views](http://www.sap.com/developer/tutorials/vora-modeler-getting-started.html)
+ - [Getting started with SAP HANA Vora Modeler: Creating SQL views](/tutorials/vora-modeler-getting-started/vora-modeler-getting-started.md)
