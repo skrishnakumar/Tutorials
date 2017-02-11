@@ -1,10 +1,10 @@
-## title: Loading sample data using Apache Zeppelin
+## Title: Loading sample data using Apache Zeppelin
 ## Details
 ### You will learn  
 You will learn how to open Apache Zeppelin and how to load sample data.
 
 ### Time to Complete
-**10 Min**.
+**5 Min**.
 
 1. Apache Zeppelin is a web-based notebook that enables interactive data analytics. It is Apache Licensed open-source software.
 
