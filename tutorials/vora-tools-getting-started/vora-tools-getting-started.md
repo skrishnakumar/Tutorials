@@ -12,6 +12,9 @@ You will learn how to start SAP HANA Vora Tools and using two of them: SQL Edito
 1. The **SAP HANA Vora Tools** provide a web UI for viewing and exporting data in tables and views, an SQL editor for creating and running SQL scripts, and a modeler for creating data models.
 
 2. Open Vora Tools from the url http://hostname:9225
+username : vora
+password : voravora
+
 3. Once Vora Tools opens up in a new browser window, check its **Connection Status** is OK before working with any of its tools.
 
     Each tool can be opened from the Home screen, or - alternatively - from shortcut icons on the left.
