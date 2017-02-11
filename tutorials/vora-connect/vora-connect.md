@@ -1,4 +1,4 @@
-## title: Connect to SAP HANA Vora, developer edition
+## Title: Connect to SAP HANA Vora, developer edition
 
 ## Details
 ### You will learn  
