@@ -1,33 +1,15 @@
----
-title: Connect to SAP HANA Vora, developer edition
-description: Connect to your SAP HANA Vora, developer edition, hosted in the public cloud
-tags: [  tutorial>beginner, topic>big-data, products>sap-hana-vora ]
----
-## Prerequisites  
- - **Proficiency:** Beginner | Intermediate | Advanced
- - **Tutorials:** [Create SAP HANA Vora, developer edition, in the cloud](http://www.sap.com/developer/tutorials/vora-setup-cloud.html)
- - Basic understanding of Apache Hadoop ecosystem and terminology
- - Basic understanding of Linux OS, commands and the use of terminal
-
-## Next Steps
- - [Loading sample data using Apache Zeppelin](http://www.sap.com/developer/tutorials/vora-zeppelin-load-sample-data.html)
+## title: Connect to SAP HANA Vora, developer edition
 
 ## Details
 ### You will learn  
-You will learn how to connect to your SAP HANA Vora instance to manage it. There are two main ways you will perform administration tasks:
- - using Apache Ambari, which provides an easy-to-use web UI to manage and monitor Apache Hadoop clusters and components, including SAP HANA Vora software,
- - logging to OS of the instance's host using `ssh` secure protocol and running commands there.
+You will learn how to connect to your SAP HANA Vora instance to manage it. 
+ - using Apache Ambari, which provides an easy-to-use web UI to manage and monitor Apache Hadoop clusters and components, including SAP HANA Vora software
 
 ### Time to Complete
-**15 Min**.
-
----
-
-
+**5 Min**.
 
 1. To open Apache Ambari web UI, **Open** the url http://hostname:8080/#/login 
-
-   
+ 
 2. Log into Ambari web UI using the user `admin` and password 'admin'.
 
     ![Login into Apache Ambari pre-installed at SAP HANA Vora, developer edition](voraconnect03.jpg)
@@ -43,4 +25,4 @@ You will learn how to connect to your SAP HANA Vora instance to manage it. There
     ![Apache Ambari web UI - main screen](voraconnect04.jpg)
 
 ## Next Steps
- - [Loading sample data using Apache Zeppelin](http://www.sap.com/developer/tutorials/vora-zeppelin-load-sample-data.html)
+ - [Loading sample data using Apache Zeppelin](/tutorials/vora-zeppelin-load-sample-data/vora-zeppelin-load-sample-data.md)
